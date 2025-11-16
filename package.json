@@ -1,0 +1,25 @@
+{
+  "name": "advanced3",
+  "version": "1.0.0",
+  "main": "sever.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnttiKeronen/Advanced3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnttiKeronen/Advanced3/issues"
+  },
+  "homepage": "https://github.com/AnttiKeronen/Advanced3#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5"
+  }
+}
