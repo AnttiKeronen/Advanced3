@@ -1,7 +1,7 @@
 {
   "name": "advanced3",
   "version": "1.0.0",
-  "main": "app.ts",
+  "main": "dist/app.js",
   "scripts": {
     "start": "tsc-watch --onSuccess \"node dist/app.js\"",
     "build": "tsc"
@@ -22,9 +22,10 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.5",
+    "@types/node": "^20.7.3",
     "typescript": "^5.3.3",
-    "tsc-watch": "^6.0.4",
-    "@types/node": "^20.7.3"
+    "tsc-watch": "^6.0.4"
   }
 }
+
 
