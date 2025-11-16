@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Express User Form</title>
+</head>
 <body>
-  <h2>Addaa käyttis</h2>
+  <h1>User Form</h1>
   <form id="userForm">
-    <input id="name" placeholder="Name" required />
-    <input id="email" placeholder="Email" required />
-    <button type="submit">Lisäähä täst</button>
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <button type="submit">Add User</button>
   </form>
-  <h2>Kaikki hevoset</h2>
-  <button id="getUsers">Hae hevoses</button>
+
+  <h2>All Users</h2>
+  <button id="getUsers">Get Users</button>
   <ul id="userList"></ul>
+
   <script src="js/main.js"></script>
 </body>
 </html>
+
+
+
+
