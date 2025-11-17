@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
-    "rootDir": "src",
+    "target": "ES2020",
+    "module": "CommonJS",
     "outDir": "dist",
+    "rootDir": "src",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"]
 }
+
 
 
